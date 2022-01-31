@@ -1,0 +1,14 @@
+﻿<Window x:Name="AppWindow" x:Class="SalaryJokeWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalaryJokeWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="240" Width="415">
+    <Grid Margin="0,0,2,1">
+        <Label Content="Would you like to get paid &#xD;&#xA; more money at your job?" HorizontalAlignment="Left" Margin="67,37,-186,-38" VerticalAlignment="Top" Width="283" FontSize="20" Height="65"/>
+        <Button Content="Yes" HorizontalAlignment="Left" Height="40" Margin="35,126,0,0" VerticalAlignment="Top" Width="125" MouseEnter="UIElement_OnMouseEnter" Click="Button_Click1"/>
+        <Button Content="No" HorizontalAlignment="Left" Height="40" Margin="225,126,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click"/>
+    </Grid>
+</Window>
